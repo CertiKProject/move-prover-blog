@@ -1,0 +1,10 @@
+[package]
+name = "mccarthy91"
+version = "0.0.0"
+
+[addresses]
+McCarthy91 = "0x2"
+std = "0x1"
+
+[dependencies]
+MoveNursery = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib/nursery", rev = "main" }
