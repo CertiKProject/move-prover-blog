@@ -1,0 +1,10 @@
+[package]
+name = "bubble_sort"
+version = "0.0.0"
+
+[addresses]
+std =  "0x1"
+bubble_sort = "0x02"
+
+[dependencies]
+MoveNursery = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib/nursery", rev = "main" }
